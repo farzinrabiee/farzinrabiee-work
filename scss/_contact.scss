@@ -1,0 +1,117 @@
+.section-contact {
+  padding: 70px 0;
+  min-height: 100vh;
+
+  h2 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    color: $color-aqua;
+    text-align: center;
+
+  }
+
+  .divider {
+    width: 100%;
+    margin: 30px 0 0 0;
+    text-align: center;
+
+
+    i {
+      position: relative;
+      top: 5px;
+      margin: 0 5px;
+    }
+  }
+
+  .divider::before, .divider::after {
+    content: "________________";
+
+    color: $color-aqua;
+    opacity: 0.6;
+
+  }
+
+  .section-team-paragraph {
+    margin: 40px 0 45px 0;
+
+    p {
+      width: 100%;
+      font-size: 18px;
+      font-weight: 600;
+      opacity: 0.8;
+    }
+  }
+
+  .row {
+    .contact-item {
+      h4 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 13px;
+        margin: 5px;
+      }
+    }
+  }
+
+  form {
+    .input-group {
+      .input-flied {
+        input {
+          border: 0;
+          border-bottom: 1px solid gray;
+
+          &:focus {
+            border: 0;
+            border-bottom: 1px solid $color-aqua;
+          }
+        }
+      }
+    }
+
+    .input-flied-area {
+      width: 100%;
+
+      textarea {
+        border: 0;
+        border-bottom: 1px solid gray;
+      }
+    }
+  }
+
+  .mapouter {
+    .gmap_canvas {
+      width: 100%;
+    }
+  }
+
+  .social-discuss {
+
+    li {
+      i {
+        color: black;
+        opacity: .5;
+        font-size: 1.5rem;
+
+      }
+    }
+  }
+}
+
+
+
+
+//start media query
+@media only screen and (max-width: 767px) {
+  .social-discuss {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+}
+//end media query

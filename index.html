@@ -1,0 +1,1209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="node_modules/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" rel="stylesheet">
+    <link href="node_modules/animate.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
+
+
+    <link href="scss/_base.css" rel="stylesheet">
+    <link href="scss/main.css" rel="stylesheet">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="loadind">
+    <img src="img/preloader.gif" alt="">
+</div>
+
+<!--start header-->
+<header>
+
+    <!--    start basket box-->
+    <div class="basket-box px-3">
+
+        <table class="table" id="table-shop">
+            <thead class=" text-center">
+            <tr>
+                <th class="">img</th>
+                <th class="">tittle</th>
+                <th class="">price</th>
+            </tr>
+            </thead>
+            <tbody class="text-center t-table">
+            </tbody>
+
+        </table>
+        <div class="clear-all"><a class="btn btn-block" href="#">clear all</a></div>
+    </div>
+    <div class="basket-overlay"></div>
+    <!--    end basket box-->
+
+
+    <!--start nav-->
+    <nav class="navbar" id="headerNav">
+        <div class="container-fluid">
+            <div class="nav-box  " id="navbarSupportedContent">
+                <a class="navbar-brand" href="#">webfar </a>
+
+                <ul class="navbar-nav d-none d-lg-flex" id="navbar-nav">
+                    <span class="indicator"></span>
+
+                    <div class="search-icon-reponsive active d-flex d-lg-none mb-5 ">
+                        <input class="header-input-search pl-3" placeholder="search any thing" type="text">
+                        <i class="bi bi-search"></i>
+                    </div>
+
+
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link current " href="#section-header">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#section-product">product</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#section-features">features</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#section-work">works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#section-about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#section-contact">contact us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="icons-header">
+                <div class="search-icon d-none d-lg-flex ">
+                    <i class="bi bi-search"></i>
+                </div>
+                <div class="buy-icon ">
+                    <i class="bi bi-cart4"></i>
+                </div>
+
+
+                <div class="menu-icon d-lg-none d-block ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="search-input d-none d-lg-flex">
+            <input type="text">
+        </div>
+
+
+    </nav>
+    <!--end nav-->
+
+
+    <!--    start nav-responsive-->
+    <ul class="navbar-nav d-flex d-lg-none" id="navbar-nav2">
+
+
+        <div class="search-icon-reponsive active d-flex d-lg-none mb-5 ">
+            <input class="header-input-search pl-3" placeholder="search any thing" type="text">
+            <i class="bi bi-search"></i>
+        </div>
+
+
+        <li class="nav-item">
+            <a aria-current="page" class="nav-link current " href="#section-header"><i class="bi bi-house-door"></i>Home</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#section-product"><i class="bi bi-box"></i>product</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link " href="#section-features"><i class="bi bi-gear"></i>features</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#section-work"><i class="bi bi-cast"></i>works</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#section-about"><i class="bi bi-tags"></i>about</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#section-contact"><i class="bi bi-telephone"></i>contact us</a>
+        </li>
+
+    </ul>
+    <div class="overlay-menu"></div>
+    <!--    end nav-responsive-->
+
+
+    <!--  start section header-->
+    <section class="section-header" id="section-header">
+        <div class="container">
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-12 col-lg-6 col-text text-center  ">
+                    <h2 class="" data-aos="fade-down">web <span>far</span></h2>
+                    <h3 class="h3" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                        <span>creative</span>
+                        one
+                        page tamplate</h3>
+                    <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">We will succeed</p>
+
+                    <div class=" w-100 button-social">
+                        <div class="button-wrraper mt-5 text-center">
+                            <div class="button-text">social network</div>
+                            <a href="#" class="border-0"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6  col-img text-center">
+                    <img alt="" src="img/3094293.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--start accuont icon-->
+        <div class="account-icon ">
+            <i class="bi bi-person"></i>
+        </div>
+        <!--start accuont icon-->
+
+
+        <!--start modal-->
+        <div class="modal-overlay ">
+            <div class="modal-wrapper ">
+                <div class="close-btn">
+                    <i class="bi bi-x"></i>
+                </div>
+
+
+                <form action="" id="form">
+
+
+                    <h2 class="h2">Create Accuont</h2>
+                    <div class="modal-social mt-3 ">
+                        <div class="face-icon">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                        <div class="face-icon ml-3">
+                            <i class="bi bi-google"></i>
+                        </div>
+                        <div class="face-icon ml-3">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+
+                    <div class="filed-wrraper">
+                        <label><i class="bi bi-envelope"></i>email</label>
+                        <input id="emailInput" type="email">
+                    </div>
+                    <div class="filed-wrraper">
+                        <label><i class="bi bi-envelope"></i>name</label>
+                        <input id="nameInput" type="text">
+                    </div>
+                    <div class="filed-wrraper">
+                        <label><i class="bi bi-envelope"></i>pass</label>
+                        <input id="passInput" type="password">
+                    </div>
+
+                    <div class="action">
+                        <button class="btn disabled" id="btn-sign" type="submit">Sign</button>
+                        <button class="btn " id="reset-btn" type="reset">reset</button>
+
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+        <!--end modal-->
+
+    </section>
+
+    <!-- end section header-->
+
+
+</header>
+<!--end header-->
+
+
+<!--start section product-->
+<section class="section-product" id="section-product">
+    <div class="container">
+        <h2 data-aos="fade-down">product</h2>
+        <div class="divider">
+            <i class="bi bi-heart"></i>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">javascript</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    javascript learning
+                                </div>
+                                <a class="card-buy" data-id="1" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product ">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">sass</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>100$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    sass learning
+                                </div>
+                                <a class="card-buy" data-id="2" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">html</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    html learning
+                                </div>
+                                <a class="card-buy" data-id="3" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">jquery</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    jquery learning
+                                </div>
+                                <a class="card-buy" data-id="4" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">bootstrap</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    bootstrap learning
+                                </div>
+                                <a class="card-buy" data-id="5" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">git</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    git learning
+                                </div>
+                                <a class="card-buy" data-id="6" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">javascript</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    javascript learning
+                                </div>
+                                <a class="card-buy" data-id="7" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">javascript</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    javascript learning
+                                </div>
+                                <a class="card-buy" data-id="8" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">javascript</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    javascript learning
+                                </div>
+                                <a class="card-buy" data-id="9" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-product">
+                        <div class="card-header p-0">
+                            <img alt="..." class="card-img-top img-fluid " src="img/banner.jpg">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">javascript</h5>
+
+
+                            <p class="card-text mb-3">farzin rabiee</p>
+
+                            <div class="icons-card d-flex justify-content-end">
+                                <div class="icon-box icon-after ">
+                                    <span class="count-card">122</span>
+                                    <i class="bi bi-heart icon-card"></i>
+                                </div>
+                                <div class="icon-box ">
+                                    <span class="count-card">230</span>
+                                    <i class="bi bi-person icon-card " style="font-size: 20px"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="more-card" href="#">more </a>
+                            <diV class="price-footer">
+                                <i class="bi bi-tag"></i>
+                                <span>250$</span>
+                            </diV>
+
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-overlay-wrapper">
+                            <div class="card-overlay-back">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </div>
+                            <div class="card-overlay-content">
+                                <div class="card-overlay-desc">
+                                    javascript learning
+                                </div>
+                                <a class="card-buy" data-id="10" href="#">
+                                    <i class="bi bi-cart4"></i>
+                                    add course
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <!-- Add Pagination -->
+
+    </div>
+
+
+</section>
+<!--end section product-->
+
+<!--start section FEATURES-->
+<section class=" section-features" id="section-features">
+    <div class="container">
+        <h2 data-aos="fade-down">FEATURES</h2>
+        <div class="divider">
+            <i class="bi bi-heart"></i>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+                <div class="service-item d-flex">
+                    <div class="features-icon">
+                        <i class="bi bi-alarm"></i>
+                    </div>
+                    <div class="features-doc">
+                        <h3 class="h3">Branding</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item d-flex">
+                    <div class="features-icon">
+                        <i class="bi bi-cloud-check"></i>
+                    </div>
+                    <div class="features-doc ">
+                        <h3 class="h3">Branding</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0" data-aos="fade-left" data-aos-delay="1000">
+                <div class="service-item d-flex">
+                    <div class="features-icon">
+                        <i class="bi bi-github"></i>
+                    </div>
+                    <div class="features-doc  ">
+                        <h3 class="h3 ">Branding</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--end section FEATURES-->
+
+
+<!--star section work-->
+<section class="section-works " id="section-work">
+    <div class="container">
+        <div class="row">
+            <h2 class="h2">works</h2>
+            <div class="divider">
+                <i class="bi bi-heart"></i>
+            </div>
+            <div class="section-works-paragraph">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam
+                    rem
+                    aperiam, eaque ipsa quae ab illo inventore
+                </p>
+            </div>
+            <div class="section-works-filter mb-5 text-center" data-aos="fade-left">
+
+                <div class="container">
+                    <ul class="works-filter text-center">
+                        <span class="indicator-works"></span>
+                        <li><a class="works-filter-btn" data-filter="all" href="#">all</a></li>
+                        <li><a class="works-filter-btn" data-filter="branding" href="#">branding</a></li>
+                        <li><a class="works-filter-btn" data-filter="web" href="#">web</a></li>
+                        <li><a class="works-filter-btn" data-filter="photography" href="#">photography</a></li>
+                        <li><a class="works-filter-btn" data-filter="logoDesign" href="#">logo design</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid img-section-works">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works">
+                <img alt="" class="img-fluid" src="img/works/item-1.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works web "><img alt="" class="img-fluid"
+                                                                                       src="img/works/item-2.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works web"><img alt="" class="img-fluid"
+                                                                                      src="img/works/item-3.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works photography"><img alt="" class="img-fluid"
+                                                                                              src="img/works/item-4.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works photography"><img alt="" class="img-fluid"
+                                                                                              src="img/works/item-5.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works logoDesign"><img alt="" class="img-fluid"
+                                                                                             src="img/works/item-6.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works branding"><img alt="" class="img-fluid"
+                                                                                           src="img/works/item-7.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-0 m-0 img-works branding"><img alt="" class="img-fluid"
+                                                                                           src="img/works/item-8.jpg">
+                <div class="overlay d-flex justify-content-center align-items-center flex-column">
+                    <i class="bi bi-bell"></i>
+                    <p>my works</p>
+                    <span>Lorem ipsum dolor sit.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--end section work-->
+
+
+<!--start section team-->
+<section class="section-about" id="section-about">
+    <div class="container">
+        <h2 class="h2" data-aos="fade-up" data-aos-duration="800">about</h2>
+        <div class="divider">
+            <i class="bi bi-heart"></i>
+        </div>
+        <div class="section-team-paragraph">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card shadow">
+                    <img alt="" class="card-img-top img-fluid" src="img/team/member-1.png">
+                    <div class="card-body">
+                        <h5 class="card-title ">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="btn btn-primary mt-3" href="#">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card shadow">
+                    <img alt="..." class="card-img-top img-fluid" src="img/team/member-2.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="btn btn-primary mt-3" href="#">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card shadow">
+                    <img alt="..." class="card-img-top img-fluid" src="img/team/member-3.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="btn btn-primary mt-3" href="#">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card shadow">
+                    <img alt="..." class="card-img-top img-fluid" src="img/team/member-3.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="btn btn-primary mt-3" href="#">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+
+</section>
+
+<!--end section team-->
+
+<!--start section sum fun facts-->
+<section class="section-facts" id="facts">
+    <div class="overlay-parallex"></div>
+    <div class="container">
+        <h2 class="h2" data-aos="fade-up" data-aos-duration="800"></h2>
+        <div class="divider">
+            <i class="bi bi-heart"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-5">
+                <div class="count-item ">
+                    <div class="count-icon">
+                        <i class="bi bi-alarm"></i>
+                    </div>
+                    <div class="count-desc">
+                        <strong class="timer text-left" data-to="3200"></strong>
+                        <p class="text-left"> house of work</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-5">
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                    <div class="count-desc">
+                        <strong class="timer text-left" data-to="120"></strong>
+                        <p class="text-left">SATISFIED CLIENTS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-5">
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="bi bi-alarm"></i>
+                    </div>
+                    <div class="count-desc">
+                        <strong class="timer text-left" data-to="360"></strong>
+                        <p class="text-left">PROJECTS DELIVERED</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-5  ">
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <div class="count-desc">
+                        <strong class="timer text-left" data-to="6454"></strong>
+                        <p class="text-left">AWARDS WON</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+</section>
+<!--end section sum fun facts-->
+
+<!--start section discuss-->
+<section class="section-contact " id="section-contact">
+    <div class="container">
+        <h2 class="h2" data-aos="fade-up" data-aos-duration="800">contact us</h2>
+        <div class="divider">
+            <i class="bi bi-heart"></i>
+        </div>
+        <div class="section-team-paragraph">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore
+            </p>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 col-md-3  mb-3 ">
+                <div class="contact-item">
+                    <h4>Cras at ultrices erat, sed vulputate!</h4>
+                    <p>2345 Setwant natrer, 1234,</p>
+                    <p>Washington. United States.</p>
+                    <p>(401) 1234 567</p>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-8 mb-5" data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom">
+                <h3 class="h3">say hello</h3>
+                <form action="" class="form">
+                    <div class="row input-group">
+                        <div class="input-flied col-6">
+                            <input class="form-control" placeholder="name" type="text">
+                        </div>
+
+                        <div class="input-flied col-6">
+                            <input class="form-control" placeholder="email" type="email">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col input-group">
+                            <div class="input-flied-area">
+                                <textarea class="form-control" placeholder="massege"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+            <div class="col-12 col-md-1 mb-5">
+
+                <ul class="social-discuss ">
+                    <li class=" mb-2"><a class="p-4" href="#"><i class="bi bi-linkedin"></i></a></li>
+                    <li class=" mb-2"><a class="p-4" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class=" mb-2"><a class="p-4" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class=" mb-2"><a class="p-4" href="#"><i class="bi bi-telephone"></i></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<!--end section discuss-->
+
+
+<!--start footer-->
+<footer class="footer " id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4 " data-aos="fade-right">
+                <h3>brandi</h3>
+                <p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4 " data-aos="fade-right" data-aos-delay="500">
+                <h3>Subscribe</h3>
+
+                <form action="" class="subscribe">
+                    <input id="subscribe" name="subscribe" type="text">
+                    <input type="submit" value="&#8594;">
+                </form>
+                <p>eusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4" data-aos="fade-right" data-aos-delay="700">
+                <h3>Explore</h3>
+                <ul class="list-footer">
+                    <li><a href="#">Inside Us</a></li>
+                    <li><a href="#">Flickr</a></li>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Forum</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4" data-aos="fade-right" data-aos-delay="1000">
+                <h3>Support</h3>
+                <ul class="list-footer">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Market Blog</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Pressroom</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-copy w-100 text-center"><p>Copyright © 2020 farzinrabiee</p>.</div>
+</footer>
+<!--end footer-->
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/swiper/swiper-bundle.min.js"></script>
+<script src="node_modules/aos/dist/aos.js"></script>
+<script src="node_modules/parallex/jquery.parallax-1.1.3.js"></script>
+<script src="node_modules/countTo/jquery-countTo.js"></script>
+
+<script src="pluginnav.js"></script>
+<script src="plugins.js"></script>
+<script src="classes.js"></script>
+<script src="costom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+#footer {
+  min-height: 80vh;
+  background-color: $color-aqua;
+  padding: 70px 0;
+  color: white;
+
+  p {
+    font-size: 13px;
+
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .subscribe {
+    border: 1px solid white;
+    height: 40px;
+    position: relative;
+    margin: 20px 0 15px 0;
+
+    input {
+      background-color: transparent;
+      border: 0;
+      color: white;
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+
+    input[type=text] {
+      position: absolute;
+      top: 5px;
+
+    }
+
+    input[type=submit] {
+      position: absolute;
+      top: 8px;
+      right: 3px;
+
+    }
+
+  }
+
+  .list-footer {
+    margin-top: 20px;
+
+    li {
+      height: 32px;
+
+      a {
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+
+        &:hover {
+          color: $color-dark;
+        }
+
+      }
+    }
+  }
+
+}
